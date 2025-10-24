@@ -28,3 +28,6 @@ You can find the Excalidraw link [here](https://excalidraw.com/#json=i3lmuT7riey
 ### Deliverables
 You can find the requested documentation [here](./FaceCap%20Assignment%20(1).pdf).
 
+### Demo Video
+You can find a quick Youtube Demo [here](https://www.youtube.com/watch?v=7rv8ghHPNXI).
+

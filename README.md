@@ -20,8 +20,11 @@ Ensure you have Node.js and Git installed on your computer. You can download Nod
 In the output, you'll find a QR code which you have to scan with your Expo Go, and you should be able to run the app. 
 
 ### Initial Wireframe
-You can find the initial wireframe [here](https://excalidraw.com/#json=i3lmuT7rieyIizE8GF-QC,_KKkzh3P6p4PPCFtOhAHSQ).
+<img src="./faceCap_wireframe.png" alt="Mobile Video Diary Wireframe" width="200">
+
+
+You can find the Excalidraw link [here](https://excalidraw.com/#json=i3lmuT7rieyIizE8GF-QC,_KKkzh3P6p4PPCFtOhAHSQ).
 
 ### Deliverables
-You can find the requested documentation [here](./FaceCap%20Assignment%20(1).pdf)
+You can find the requested documentation [here](./FaceCap%20Assignment%20(1).pdf).
 

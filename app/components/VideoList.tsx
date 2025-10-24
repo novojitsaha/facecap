@@ -1,6 +1,6 @@
 import StorageBadge from "@/app/components/StorageBadge";
 import VideoItem from "@/app/components/VideoItem";
-import { useVideoContext } from "@/app/contexts/VideoContext";
+import { useVideoContext } from "@/contexts/VideoContext";
 import { useEffect } from "react";
 import { FlatList, Text, View } from "react-native";
 

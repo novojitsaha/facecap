@@ -39,10 +39,7 @@ export default function RecordingControls({
           <Text className="font-bold text-xl text-gray-900">
             Start Recording
           </Text>
-          <View
-            className="w-8 h-8 rounded-full border-2 justify-center items-center"
-            style={{ borderColor: "#ef4444" }}
-          >
+          <View className="w-8 h-8 rounded-full border-2 border-red-500 justify-center items-center">
             <View className="w-4 h-4 rounded-full bg-red-500" />
           </View>
         </TouchableOpacity>

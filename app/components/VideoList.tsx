@@ -17,16 +17,11 @@ export default function VideoList({ onPlayVideo }: VideoListProps) {
 
   return (
       <>
-        <View className="flex flex-row justify-between items-center px-6 py-5">
+        <View className="flex flex-row justify-between items-center px-6 py-5 mb-4">
           <Text className="font-bold text-3xl">My Video Diary</Text>
           <StorageBadge videos={videos} />
         </View>
-        <View className="px-6 mb-4">
-          <Text className="text-l text-right">
-            Total {videos.length} {videos.length === 1 ? "video" : "videos"}
-          </Text>
-        </View>
-        <View className="pb-80">
+        <View className="pb-72">
           <FlatList
             data={videos}
             renderItem={({ item }) => (

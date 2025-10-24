@@ -1,6 +1,6 @@
 import { formatFileSize } from "@/lib/utils";
 import VideoType from "@/types/videoType";
-import { HardDrive } from "lucide-react-native";
+import { Film, HardDrive } from "lucide-react-native";
 import { Text, View } from "react-native";
 
 interface StorageBadgeProps {
@@ -13,9 +13,20 @@ export default function StorageBadge({ videos }: StorageBadgeProps) {
   };
 
   return (
-    <View className="flex flex-row items-center gap-2 text-sm text-muted-foreground bg-secondary px-3 py-2 rounded-full">
-      <HardDrive className="w-4 h-4" />
-      <Text className="font-medium">{formatFileSize(getTotalStorageBytes())}</Text>
+    <View className="flex flex-row items-center bg-secondary rounded-full px-3 py-2">
+      <View className="flex flex-row items-center gap-1.5">
+        <Film className="w-4 h-4" color="#6b7280" />
+        <Text className="font-semibold text-sm text-gray-600">
+          {videos.length}
+        </Text>
+      </View>
+      <View className="w-px h-4 bg-gray-600 mx-2.5" />
+      <View className="flex flex-row items-center gap-1.5">
+        <HardDrive className="w-4 h-4" color="#6b7280" />
+        <Text className="font-semibold text-sm text-gray-600">
+          {formatFileSize(getTotalStorageBytes())}
+        </Text>
+      </View>
     </View>
   );
 }

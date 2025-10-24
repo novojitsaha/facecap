@@ -1,8 +1,9 @@
-# Welcome to your Expo app 👋
+# Welcome to Mobile Video Diary App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+To run the application on your mobile, download the Expo Go app from AppStore or PlayStore. Then create an account and sign in. 
 
-## Get started
+
+Ensure you have Node.js and Git installed on your computer. You can download Node.js [here](https://nodejs.org/en/download/current) and Git [here](https://git-scm.com/install/). Once you have both these softwares installed, open a terminal in the directory where you want to install the application. Clone this repo using `git clone https://github.com/novojitsaha/facecap` and change the current working directory to the project root directory. Then follow the steps below: 
 
 1. Install dependencies
 
@@ -16,35 +17,11 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+In the output, you'll find a QR code which you have to scan with your Expo Go, and you should be able to run the app. 
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Initial Wireframe
+You can find the initial wireframe [here](https://excalidraw.com/#json=i3lmuT7rieyIizE8GF-QC,_KKkzh3P6p4PPCFtOhAHSQ).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Deliverables
+You can find the requested documentation [here](./FaceCap%20Assignment%20(1).pdf)
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
